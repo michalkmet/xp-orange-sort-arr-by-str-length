@@ -23,3 +23,10 @@ Pomodoro 1:
 - ✅ DONE planning 
 - ✅ DONE initial project refactor 
 - ✅ DONE create user stories (examples etc.)
+Story1: sorted strings
+As User, I want to pass strings to function, so I can see them sorted
+
+- ✅ DONE UAT1.1: When I pass ["a"], Than I should see ["a"]
+ - ⚠ TODO UAT1.2: When I pass ["a", "ab"], Than I should see ["a", "ab"]
+ - ⚠ TODO UAT1.3: When I pass ["ab", "a"], Than I should see ["a", "ab"]
+ - ⚠ TODO UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "abc"]

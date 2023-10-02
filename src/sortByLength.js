@@ -1,5 +1,5 @@
 function sortByLength() {
-  return 'hello';
+  return ['a'];
 }
 
 module.exports = sortByLength;

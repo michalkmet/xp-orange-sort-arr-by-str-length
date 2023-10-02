@@ -18,3 +18,26 @@ All of the strings in the array passed to your function will be different length
 - ✅ DONE
 
 ## Backlog
+
+Domain:
+array
+string
+length
+
+Examples:
+
+["a"] => ["a"]
+["a", "ab"] => ["a", "ab"]
+["ab", "a"] => ["a", "ab"]
+["ab","cba", "a"] => ["a", "ab", "abc"]
+["Beg", "Life", "I", "To"] => ["I", "To", "Beg", "Life"]
+["love", "dis", "I", "ww","write"] => ["I", "ww", "dis", "love","write"]
+
+Story1: sorted strings
+As User, I want to pass strings to function, so I can see them sorted
+
+ - ⚠ TODO UAT1.1: When I pass ["a"], Than I should see ["a"]
+ - ⚠ TODO UAT1.2: When I pass ["a", "ab"], Than I should see ["a", "ab"]
+ - ⚠ TODO UAT1.3: When I pass ["ab", "a"], Than I should see ["a", "ab"]
+ - ⚠ TODO UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "abc"]
+ 

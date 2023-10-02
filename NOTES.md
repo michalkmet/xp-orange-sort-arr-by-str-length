@@ -22,4 +22,4 @@ All of the strings in the array passed to your function will be different length
 Pomodoro 1:
 - ✅ DONE planning 
 - ✅ DONE initial project refactor 
-- ⚠ TODO create user stories (examples etc.)
+- ✅ DONE create user stories (examples etc.)

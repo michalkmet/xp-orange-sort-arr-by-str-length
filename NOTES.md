@@ -20,6 +20,6 @@ All of the strings in the array passed to your function will be different length
 ## Plans
 
 Pomodoro 1:
-- 🚧 IN PROGRESS planning 
-- ⚠ TODO initial project refactor 
+- ✅ DONE planning 
+- ✅ DONE initial project refactor 
 - ⚠ TODO create user stories (examples etc.)

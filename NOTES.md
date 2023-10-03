@@ -37,4 +37,4 @@ Story 2: many sorted strings
 As User, I want to pass many strings to function, so I can see them sorted
 
 - ✅ DONE UAT2.1 When I pass ["Beg", "Life", "I", "To"], Than I should see ["I", "To", "Beg", "Life"]
-- ⚠ TODO UAT2.2 When I pass ["love", "dis", "I", "ww","write"], Than I should see ["I", "ww", "dis", "love","write"]
+- ✅ DONE UAT2.2 When I pass ["love", "dis", "I", "ww","write"], Than I should see ["I", "ww", "dis", "love","write"]

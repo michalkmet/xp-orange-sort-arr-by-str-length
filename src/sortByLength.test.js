@@ -19,4 +19,7 @@ describe('Story 2: many sorted strings', () => {
   it('UAT2.1 When I pass ["Beg", "Life", "I", "To"], Than I should see ["I", "To", "Beg", "Life"]', () => {
     expect(sortByLength(['Beg', 'Life', 'I', 'To'])).toStrictEqual(['I', 'To', 'Beg', 'Life']);
   });
+  it('UAT2.2 When I pass ["love", "dis", "I", "ww","write"], Than I should see ["I", "ww", "dis", "love","write"]', () => {
+    expect(sortByLength(['love', 'dis', 'I', 'ww', 'write'])).toStrictEqual(['I', 'ww', 'dis', 'love', 'write']);
+  });
 });

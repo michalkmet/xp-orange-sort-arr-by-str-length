@@ -14,3 +14,9 @@ describe('Story1: sorted strings', () => {
     expect(sortByLength(['ab', 'cba', 'a'])).toStrictEqual(['a', 'ab', 'cba']);
   });
 });
+
+describe('Story 2: many sorted strings', () => {
+  it('UAT2.1 When I pass ["Beg", "Life", "I", "To"], Than I should see ["I", "To", "Beg", "Life"]', () => {
+    expect(sortByLength(['Beg', 'Life', 'I', 'To'])).toStrictEqual(['I', 'To', 'Beg', 'Life']);
+  });
+});

@@ -32,3 +32,9 @@ As User, I want to pass strings to function, so I can see them sorted
 Pomodoro 2:
 - ✅ DONE UAT1.3: When I pass ["ab", "a"], Than I should see ["a", "ab"]
 - ✅ DONE UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "cba"]
+
+Story 2: many sorted strings
+As User, I want to pass many strings to function, so I can see them sorted
+
+- ✅ DONE UAT2.1 When I pass ["Beg", "Life", "I", "To"], Than I should see ["I", "To", "Beg", "Life"]
+- ⚠ TODO UAT2.2 When I pass ["love", "dis", "I", "ww","write"], Than I should see ["I", "ww", "dis", "love","write"]

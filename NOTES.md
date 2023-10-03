@@ -31,4 +31,4 @@ As User, I want to pass strings to function, so I can see them sorted
 
 Pomodoro 2:
 - ✅ DONE UAT1.3: When I pass ["ab", "a"], Than I should see ["a", "ab"]
- - ⚠ TODO UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "abc"]
+- ✅ DONE UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "cba"]

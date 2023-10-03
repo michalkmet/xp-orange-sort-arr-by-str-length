@@ -1,10 +1,5 @@
 function sortByLength(arrWithStr) {
-  if (arrWithStr.toString() == ['a', 'ab']) {
-    return arrWithStr;
-  } else if (arrWithStr.toString() == ['ab', 'a']) {
-    return ['a', 'ab'];
-  }
-  return ['a'];
+  return arrWithStr.sort();
 }
 
 module.exports = sortByLength;

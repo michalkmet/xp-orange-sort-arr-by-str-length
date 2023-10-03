@@ -39,5 +39,5 @@ As User, I want to pass strings to function, so I can see them sorted
  - ⚠ TODO UAT1.1: When I pass ["a"], Than I should see ["a"]
  - ⚠ TODO UAT1.2: When I pass ["a", "ab"], Than I should see ["a", "ab"]
  - ⚠ TODO UAT1.3: When I pass ["ab", "a"], Than I should see ["a", "ab"]
- - ⚠ TODO UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "abc"]
+ - ⚠ TODO UAT1.4: When I pass ["ab","cba", "a"], Than I should see ["a", "ab", "cba"]
  
